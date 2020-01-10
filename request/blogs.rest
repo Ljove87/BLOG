@@ -1,0 +1,11 @@
+post http://localhost:3001/api/blogs
+
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZlbGppY2E4NyIsImlkIjoiNWRmNzliMmY2ZTU0MTYwNzE4N2U4NGY3IiwiaWF0IjoxNTc2NTgyMTI5fQ.LBj5NzRy8a3wm07btdpqq4PY3culM-pCx_KfusAxU5o
+
+{
+    "title": "Some title",
+    "author": "Veljko Kukic",
+    "url": "http://google.com",
+    "likes": 3
+}
